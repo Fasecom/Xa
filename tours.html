@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/globals.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/tours.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="navbar_wrapper">
+        <a href="/">
+          <img src="public/logos/WaldinLogo.png" alt="Logo" class="logo" />
+        </a>
+        <div class="navbar">
+          <a href="/tours.html" class="navbar_item"> Акции </a>
+          <a href="#" class="navbar_item"> Поиск </a>
+          <a href="#" class="navbar_item"> Контакты </a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+            <div class="col">
+                <select class="form-select form_select" aria-label="Default select example" style="border-radius: 65px;">
+                    <option selected>Откуда</option>
+                    <option value="1">Земля</option>
+                    <option value="2">Марс</option>
+                    <option value="3">Юпитер</option>
+                    <option value="4">Сатурн</option>
+                    <option value="5">Винера</option>
+                </select>
+            </div>
+            <div class="col-6">
+                <select class="form-select form_select" aria-label="Default select example" style="border-radius: 65px;">
+                    <option selected>Куда</option>
+                    <option value="1">Земля</option>
+                    <option value="2">Марс</option>
+                    <option value="3">Юпитер</option>
+                    <option value="4">Сатурн</option>
+                    <option value="5">Винера</option>
+                </select>
+            </div>
+            <div class="col-3">
+                <input type="date" name="calendar" class="form-select form_select">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                <select class="form-select form_select" aria-label="Default select example" style="border-radius: 65px;">
+                    <option selected>Длительность</option>
+                    <option value="1">1 Циклов</option>
+                    <option value="2">2 Циклов</option>
+                    <option value="3">3 Циклов</option>
+                    <option value="4">4 Циклов</option>
+                    <option value="5">5 Циклов</option>
+                    <option value="6">6 Циклов</option>
+                    <option value="7">7 Циклов</option>
+                    <option value="8">8 Циклов</option>
+                    <option value="9">9 Циклов</option>
+                </select>
+            </div>
+            <div class="col">
+                <input type="text" class="form-control form_select" placeholder="Кол-во человек" aria-label="First name" style="border-radius: 65px;">
+            </div>
+            <div class="col-4">
+                <select class="form-select form_select" aria-label="Default select example">
+                    <option selected>Вид</option>
+                    <option value="1">Отдых</option>
+                    <option value="2">Развлекательная поездка</option>
+                    <option value="3">Тематическая программа</option>
+                    <option value="4">Программа-квест</option>
+                    <option value="5">Экскурсия</option>
+                </select>
+            </div>
+            <div class="col-3 d-grid">
+                <button type="button" class="btn btn-primary">Найти туры</button>
+            </div>
+        </div>
+      </div>
+      <div class="main">
+        <a href="/reservation.html" class="card">
+          <image
+            src="/public/images/Планета№ (1).jpeg"
+            alt="Фото"
+            class="card_img"
+            style="border-radius: 20px;"
+          />
+          <div class="card_text">
+            <div class="card_text_header">Урановые бури</div>
+            <div class="card_text_city">тематическая программа</div>
+          </div>
+          <div class="card_text_price">5500 $</div>
+        </a>
+        <a href="/reservation.html" class="card">
+          <image
+            src="/public/images/Планета№ (2).jpeg"
+            alt="Фото"
+            class="card_img"
+            style="border-radius: 20px;"
+          />
+          <div class="card_text">
+            <div class="card_text_header">Нептуновские льды</div>
+            <div class="card_text_city">тематическая программа</div>
+          </div>
+          <div class="card_text_price">7300 $</div>
+        </a>
+        <a href="/reservation.html" class="card">
+          <image
+            src="/public/images/Планета№ (4).jpeg"
+            alt="Фото"
+            class="card_img"
+            style="border-radius: 20px;"
+          />
+          <div class="card_text">
+            <div class="card_text_header">Юпитерианские бани</div>
+            <div class="card_text_city">отдых</div>
+          </div>
+          <div class="card_text_price">1450 $</div>
+        </a>
+        <a href="/reservation.html" class="card">
+          <image
+            src="/public/images/Планета№ (5).jpeg"
+            alt="Фото"
+            class="card_img"
+            style="border-radius: 20px;"
+          />
+          <div class="card_text">
+            <div class="card_text_header">Солярий у солнца</div>
+            <div class="card_text_city">отдых</div>
+          </div>
+          <div class="card_text_price">2500 $</div>
+        </a>
+        <a href="/reservation.html" class="card">
+          <image
+            src="/public/images/Планета№ (6).jpeg"
+            alt="Фото"
+            class="card_img"
+            style="border-radius: 20px;"
+          />
+          <div class="card_text">
+            <div class="card_text_header">Остатки земли</div>
+            <div class="card_text_city">тематическая программа</div>
+          </div>
+          <div class="card_text_price">3750 $</div>
+        </a>
+        <a href="/reservation.html" class="card">
+          <image
+            src="/public/images/Планета№ (7).jpeg"
+            alt="Фото"
+            class="card_img"
+            style="border-radius: 20px;"
+          />
+          <div class="card_text">
+            <div class="card_text_header">Лунное ралли</div>
+            <div class="card_text_city">развлекательная поездка</div>
+          </div>
+          <div class="card_text_price">1250 $</div>
+        </a>
+        <a href="/reservation.html" class="card">
+          <image
+            src="/public/images/Планета№ (8).jpeg"
+            alt="Фото"
+            class="card_img"
+            style="border-radius: 20px;"
+          />
+          <div class="card_text">
+            <div class="card_text_header">Новая надежда</div>
+            <div class="card_text_city">тематическая программа</div>
+          </div>
+          <div class="card_text_price">1250 $</div>
+        </a>
+        <a href="/reservation.html" class="card">
+          <image
+            src="/public/images/Планета№ (9).jpeg"
+            alt="Фото"
+            class="card_img"
+            style="border-radius: 20px;"
+          />
+          <div class="card_text">
+            <div class="card_text_header">Новая Европа</div>
+            <div class="card_text_city">тематическая программа</div>
+          </div>
+          <div class="card_text_price">2200 $</div>
+        </a>
+        <a href="/reservation.html" class="card">
+          <image
+            src="/public/images/Планета№ (1).jpeg"
+            alt="Фото"
+            class="card_img"
+            style="border-radius: 20px;"
+          />
+          <div class="card_text">
+            <div class="card_text_header">Урановые бури</div>
+            <div class="card_text_city">тематическая программа</div>
+          </div>
+          <div class="card_text_price">5500 $</div>
+        </a>
+        <a href="/reservation.html" class="card">
+          <image
+            src="/public/images/Планета№ (2).jpeg"
+            alt="Фото"
+            class="card_img"
+            style="border-radius: 20px;"
+          />
+          <div class="card_text">
+            <div class="card_text_header">Нептуновские льды</div>
+            <div class="card_text_city">тематическая программа</div>
+          </div>
+          <div class="card_text_price">7300 $</div>
+        </a>
+        <a href="/reservation.html" class="card">
+          <image
+            src="/public/images/Планета№ (4).jpeg"
+            alt="Фото"
+            class="card_img"
+            style="border-radius: 20px;"
+          />
+          <div class="card_text">
+            <div class="card_text_header">Юпитерианские бани</div>
+            <div class="card_text_city">отдых</div>
+          </div>
+          <div class="card_text_price">1450 $</div>
+        </a>
+        <a href="/reservation.html" class="card">
+          <image
+            src="/public/images/Планета№ (5).jpeg"
+            alt="Фото"
+            class="card_img"
+            style="border-radius: 20px;"
+          />
+          <div class="card_text">
+            <div class="card_text_header">Солярий у солнца</div>
+            <div class="card_text_city">отдых</div>
+          </div>
+          <div class="card_text_price">2500 $</div>
+        </a>
+        <a href="/reservation.html" class="card">
+          <image
+            src="/public/images/Планета№ (6).jpeg"
+            alt="Фото"
+            class="card_img"
+            style="border-radius: 20px;"
+          />
+          <div class="card_text">
+            <div class="card_text_header">Остатки земли</div>
+            <div class="card_text_city">тематическая программа</div>
+          </div>
+          <div class="card_text_price">3750 $</div>
+        </a>
+        <a href="/reservation.html" class="card">
+          <image
+            src="/public/images/Планета№ (7).jpeg"
+            alt="Фото"
+            class="card_img"
+            style="border-radius: 20px;"
+          />
+          <div class="card_text">
+            <div class="card_text_header">Лунное ралли</div>
+            <div class="card_text_city">развлекательная поездка</div>
+          </div>
+          <div class="card_text_price">1250 $</div>
+        </a>
+        <a href="/reservation.html" class="card">
+          <image
+            src="/public/images/Планета№ (8).jpeg"
+            alt="Фото"
+            class="card_img"
+            style="border-radius: 20px;"
+          />
+          <div class="card_text">
+            <div class="card_text_header">Новая надежда</div>
+            <div class="card_text_city">тематическая программа</div>
+          </div>
+          <div class="card_text_price">1250 $</div>
+        </a>
+        <a href="/reservation.html" class="card">
+          <image
+            src="/public/images/Планета№ (9).jpeg"
+            alt="Фото"
+            class="card_img"
+            style="border-radius: 20px;"
+          />
+          <div class="card_text">
+            <div class="card_text_header">Новая Европа</div>
+            <div class="card_text_city">тематическая программа</div>
+          </div>
+          <div class="card_text_price">2200 $</div>
+        </a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="navbar_wrapper">
+        <a href="index.html">
+          <img src="public/logos/WaldinLogo.png" alt="Logo" class="logo" height="60px"/>
+        </a>
+        <div class="navbar">
+          <a href="/tours.html" class="footerM"> Акции </a>
+          <a href="#" class="footerM"> Поиск </a>
+          <a href="#" class="footerM"> Контакты </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
